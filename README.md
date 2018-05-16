@@ -16,5 +16,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 See also the list of [contributors](https://github.com/alvin96/little-scss/contributors) who participated in this project.
 
 ## License
+Copyright (c) 2018 alvin96
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
