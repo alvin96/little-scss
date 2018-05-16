@@ -11,10 +11,13 @@
     "url": "git+https://github.com/alvin96/little-scss.git"
   },
   "keywords": [
+    "css",
     "scss",
+    "sass",
+    "basic-scss",
+    "mixins",
     "alvin96",
-    "alvinchee96",
-    "basic-scss"
+    "alvinchee96"
   ],
   "author": "alvin96",
   "license": "MIT",
