@@ -1,0 +1,25 @@
+{
+  "name": "little-scss",
+  "version": "1.0.0",
+  "description": "A Basic Scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvin96/little-scss.git"
+  },
+  "keywords": [
+    "scss",
+    "alvin96",
+    "alvinchee96",
+    "basic-scss"
+  ],
+  "author": "alvin96",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvin96/little-scss/issues"
+  },
+  "homepage": "https://github.com/alvin96/little-scss#readme"
+}
