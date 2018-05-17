@@ -1,139 +1,139 @@
-$html-color-gainsboro: #DCDCDC;
-$html-color-lightGray: #D3D3D3;
-$html-color-silver: #C0C0C0;
-$html-color-darkGray: #A9A9A9;
-$html-color-gray: #808080;
-$html-color-dimGray: #696969;
-$html-color-lightSlateGray: #778899;
-$html-color-slateGray: #708090;
-$html-color-darkSlateGray: #2F4F4F;
-$html-color-black: #000000;
-$html-color-cornsilk: #FFF8DC;
-$html-color-blanchedAlmond: #FFEBCD;
-$html-color-bisque: #FFE4C4;
-$html-color-navajoWhite: #FFDEAD;
-$html-color-wheat: #F5DEB3;
-$html-color-burlyWood: #DEB887;
-$html-color-tan: #D2B48C;
-$html-color-rosyBrown: #BC8F8F;
-$html-color-sandyBrown: #F4A460;
-$html-color-goldenrod: #DAA520;
-$html-color-darkGoldenrod: #B8860B;
-$html-color-peru: #CD853F;
-$html-color-chocolate: #D2691E;
-$html-color-saddleBrown: #8B4513;
-$html-color-sienna: #A0522D;
-$html-color-brown: #A52A2A;
-$html-color-maroon: #800000;
-$html-color-indianRed: #CD5C5C;
-$html-color-lightCoral: #CD5C5C;
-$html-color-coral: #FF7F50;
-$html-color-salmon: #FA8072;
-$html-color-darkSalmon: #E9967A;
-$html-color-lightSalmon: #FFA07A;
-$html-color-crimson: #DC143C;
-$html-color-red: #FF0000;
-$html-color-fireBrick: #B22222;
-$html-color-darkRed: #8B0000;
-$html-color-pink: #FFC0CB;
-$html-color-lightPink: #FFB6C1;
-$html-color-hotPink: #FF69B4;
-$html-color-deepPink: #FF1493;
-$html-color-mediumVioletRed: #C71585;
-$html-color-paleVioletRed: #DB7093;
-$html-color-tomato: #FF6347;
-$html-color-orangeRed: #FF4500;
-$html-color-darkOrange: #FF8C00;
-$html-color-orange: #FFA500;
-$html-color-gold: #FFD700;
-$html-color-yellow: #FFFF00;
-$html-color-lightYellow: #FFFFE0;
-$html-color-lemonChiffon: #FFFACD;
-$html-color-lightGoldenrodYellow: #FAFAD2;
-$html-color-papayaWhip: #FFEFD5;
-$html-color-moccasin: #FFE4B5;
-$html-color-peachPuff: #FFDAB9;
-$html-color-paleGoldenrod: #EEE8AA;
-$html-color-khaki: #F0E68C;
-$html-color-darkKhaki: #BDB76B;
-$html-color-greenYellow: #ADFF2F;
-$html-color-lawnGreen: #7CFC00;
-$html-color-lime: #00FF00;
-$html-color-limeGreen: #32CD32;
-$html-color-paleGreen: #98FB98;
-$html-color-lightGreen: #90EE90;
-$html-color-mediumSpringGreen: #00FA9A;
-$html-color-springGreen: #00FF7F;
-$html-color-mediumSeaGreen: #3CB371;
-$html-color-seaGreen: #2E8B57;
-$html-color-darkSeaGreen: #8FBC8B;
-$html-color-forestGreeb: #228B22;
-$html-color-green: #008000;
-$html-color-darkGreen: #006400;
-$html-color-lightSeaGreen: #20B2AA;
-$html-color-yellowGreen: #9ACD32;
-$html-color-oliveDrab: #6B8E23;
-$html-color-olive: #808000;
-$html-color-darkOliveGreeb: #556B2F;
-$html-color-mediumAquamarine: #66CDAA;
-$html-color-darkCyan: #008B8B;
-$html-color-teal: #008080;
-$html-color-lavender: #E6E6FA;
-$html-color-thistle: #D8BFD8;
-$html-color-plum: #DDA0DD;
-$html-color-violet: #EE82EE;
-$html-color-orchid: #DA70D6;
-$html-color-mediumOrchid: #BA55D3;
-$html-color-darkOrchid: #9932CC;
-$html-color-fuchsia: #FF00FF;
-$html-color-magenta: #FF00FF;
-$html-color-darkMagenta: #8B008B;
-$html-color-purple: #800080;
-$html-color-mediumPurple: #9370DB;
-$html-color-rebeccaPurple: #663399;
-$html-color-blueViolet: #8A2BE2;
-$html-color-darkViolet: #9400D3;
-$html-color-indigo: #4B0082;
-$html-color-slateBlue: #6A5ACD;
-$html-color-darkSlateBlue: #483D8B;
-$html-color-mediumSlateBlue: #7B68EE;
-$html-color-aqua: #00FFFF;
-$html-color-cyan: #00FFFF;
-$html-color-lightCyan: #E0FFFF;
-$html-color-turquoise: #40E0D0;
-$html-color-paleTurquoise: #AFEEEE;
-$html-color-darkTurquoise: #00CED1;
-$html-color-mediumTurquoise: #48D1CC;
-$html-color-cadetBlue: #5F9EA0;
-$html-color-steelBlue: #4682B4;
-$html-color-lightSteelBlue: #B0C4DE;
-$html-color-powderBlue: #B0E0E6;
-$html-color-lightBlue: #ADD8E6;
-$html-color-skyBlue: #87CEEB;
-$html-color-lightSkyBlue: #87CEFA;
-$html-color-deepSkyBlue: #00BFFF;
-$html-color-dodgerBlue: #1E90FF;
-$html-color-cornflowerBlue: #6495ED;
-$html-color-royalBlue: #4169E1;
-$html-color-blue: #0000FF;
-$html-color-mediumBlue: #0000CD;
-$html-color-darkBlue: #00008B;
-$html-color-navy: #000080;
-$html-color-midnightBlue: #191970;
-$html-color-white: #FFFFFF;
-$html-color-snow: #FFFAFA;
-$html-color-honeydew: #F0FFF0;
-$html-color-mintCream: #F5FFFA;
-$html-color-azure: #F0FFFF;
-$html-color-aliceBlue: #F0F8FF;
-$html-color-ghostWhite: #F8F8FF;
-$html-color-whiteSmoke: #F5F5F5;
-$html-color-seaShell: #FFF5EE;
-$html-color-beige: #F5F5DC;
-$html-color-oldLace: #FDF5E6;
-$html-color-floralWhite: #FFFAF0;
-$html-color-ivory: #FFFFF0;
-$html-color-antiqueWhite: #FAEBD7;
-$html-color-linen: #FAF0E6;
-$html-color-lavenderBlush: #FFF0F5;
-$html-color-mistyRose: #FFE4E1;
+$html-colors: (
+    gainsboro: #DCDCDC,
+    lightgray: #D3D3D3,
+    silver: #C0C0C0,
+    darkgray: #A9A9A9,
+    gray: #808080,
+    dimgray: #696969,
+    lightslategray: #778899,
+    slategray: #708090,
+    darkslategray: #2F4F4F,
+    black: #000000,
+    cornsilk: #FFF8DC,
+    blanchedalmond: #FFEBCD,
+    bisque: #FFE4C4,
+    navajowhite: #FFDEAD,
+    wheat: #F5DEB3,
+    burlywood: #DEB887,
+    tan: #D2B48C,
+    rosybrown: #BC8F8F,
+    sandybrown: #F4A460,
+    goldenrod: #DAA520,
+    darkgoldenrod: #B8860B,
+    peru: #CD853F,
+    chocolate: #D2691E,
+    saddlebrown: #8B4513,
+    sienna: #A0522D,
+    brown: #A52A2A,
+    maroon: #800000,
+    indianred: #CD5C5C,
+    lightcoral: #CD5C5C,
+    coral: #FF7F50,
+    salmon: #FA8072,
+    darksalmon: #E9967A,
+    lightsalmon: #FFA07A,
+    crimson: #DC143C,
+    red: #FF0000,
+    firebrick: #B22222,
+    darkred: #8B0000,
+    pink: #FFC0CB,
+    lightpink: #FFB6C1,
+    hotpink: #FF69B4,
+    deeppink: #FF1493,
+    mediumvioletred: #C71585,
+    palevioletred: #DB7093,
+    tomato: #FF6347,
+    orangered: #FF4500,
+    darkorange: #FF8C00,
+    orange: #FFA500,
+    gold: #FFD700,
+    yellow: #FFFF00,
+    lightyellow: #FFFFE0,
+    lemonchiffon: #FFFACD,
+    lightgoldenrodyellow: #FAFAD2,
+    papayawhip: #FFEFD5,
+    moccasin: #FFE4B5,
+    peachpuff: #FFDAB9,
+    palegoldenrod: #EEE8AA,
+    khaki: #F0E68C,
+    darkKhaki: #BDB76B,
+    greenyellow: #ADFF2F,
+    lawngreen: #7CFC00,
+    lime: #00FF00,
+    limegreen: #32CD32,
+    palegreen: #98FB98,
+    lightgreen: #90EE90,
+    mediumspringgreen: #00FA9A,
+    springgreen: #00FF7F,
+    mediumseagreen: #3CB371,
+    seagreen: #2E8B57,
+    darkseagreen: #8FBC8B,
+    forestgreeb: #228B22,
+    green: #008000,
+    darkgreen: #006400,
+    lightseagreen: #20B2AA,
+    yellowgreen: #9ACD32,
+    olivedrab: #6B8E23,
+    olive: #808000,
+    darkolivegreeb: #556B2F,
+    mediumaquamarine: #66CDAA,
+    darkcyan: #008B8B,
+    teal: #008080,
+    lavender: #E6E6FA,
+    thistle: #D8BFD8,
+    plum: #DDA0DD,
+    violet: #EE82EE,
+    orchid: #DA70D6,
+    mediumorchid: #BA55D3,
+    darkOrchid: #9932CC,
+    magenta: #FF00FF,
+    darkmagenta: #8B008B,
+    purple: #800080,
+    mediumpurple: #9370DB,
+    rebeccapurple: #663399,
+    blueviolet: #8A2BE2,
+    darkviolet: #9400D3,
+    indigo: #4B0082,
+    slateblue: #6A5ACD,
+    darkslateblue: #483D8B,
+    mediumslateblue: #7B68EE,
+    cyan: #00FFFF,
+    lightcyan: #E0FFFF,
+    turquoise: #40E0D0,
+    paleturquoise: #AFEEEE,
+    darkturquoise: #00CED1,
+    mediumturquoise: #48D1CC,
+    cadetblue: #5F9EA0,
+    steelblue: #4682B4,
+    lightsteelblue: #B0C4DE,
+    powderblue: #B0E0E6,
+    lightblue: #ADD8E6,
+    skyblue: #87CEEB,
+    lightskyblue: #87CEFA,
+    deepskyblue: #00BFFF,
+    dodgerblue: #1E90FF,
+    cornflowerblue: #6495ED,
+    royalblue: #4169E1,
+    blue: #0000FF,
+    mediumblue: #0000CD,
+    darkblue: #00008B,
+    navy: #000080,
+    midnightblue: #191970,
+    white: #FFFFFF,
+    snow: #FFFAFA,
+    honeydew: #F0FFF0,
+    mintcream: #F5FFFA,
+    azure: #F0FFFF,
+    aliceblue: #F0F8FF,
+    ghostwhite: #F8F8FF,
+    whitesmoke: #F5F5F5,
+    seashell: #FFF5EE,
+    beige: #F5F5DC,
+    oldlace: #FDF5E6,
+    floralwhite: #FFFAF0,
+    ivory: #FFFFF0,
+    antiquewhite: #FAEBD7,
+    linen: #FAF0E6,
+    lavenderblush: #FFF0F5,
+    mistyrose: #FFE4E1,
+);

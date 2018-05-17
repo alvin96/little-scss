@@ -13,7 +13,7 @@
     filter: alpha(opacity=$opacity-ie);
 }
 
-// Background gradient
+// Background Gradient
 @mixin background-gradient($start-color, $end-color, $orientation) {
     background: $start-color;
     @if $orientation == 'vertical' {
@@ -31,11 +31,11 @@
 // Media Queries
 // A map of screen breakpoints
 $breakpoints: (
-        xs: 0,
-        sm: 576px,
-        md: 768px,
-        lg: 992px,
-        xl: 1200px,
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
 );
 
 @mixin screen-above($breakpoint) {

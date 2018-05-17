@@ -1,36 +1,39 @@
-$social-color-facebook: #3B5999;
-$social-color-messenger: #0084FF;
-$social-color-twitter: #55ACEE;
-$social-color-linkedIn: #0077B5;
-$social-color-skype: #00AFF0;
-$social-color-dropbox: #007EE5;
-$social-color-wordPress: #21759B;
-$social-color-vimeo: #1AB7EA;
-$social-color-slideShare: #0077B5;
-$social-color-vk: #4C75A3;
-$social-color-tumblr: #34465D;
-$social-color-yahoo: #410093;
-$social-color-google: #DD4B39;
-$social-color-pinterest: #BD081C;
-$social-color-youtube: #CD201F;
-$social-color-stumbleUpon: #EB4924;
-$social-color-reddit: #FF5700;
-$social-color-quora: #B92B27;
-$social-color-yelp: #AF0606;
-$social-color-weibo: #DF2029;
-$social-color-productHunt: #DA552F;
-$social-color-hackerNews: #FF6600;
-$social-color-soundcloud: #FF3300;
-$social-color-blogger: #F57D00;
-$social-color-whatsApp: #25D366;
-$social-color-weChat: #09B83E;
-$social-color-line: #00C300;
-$social-color-medium: #02B875;
-$social-color-vine: #00B489;
-$social-color-slack: #3AAF85;
-$social-color-instagram: #E4405F;
-$social-color-dribbble: #EA4C89;
-$social-color-flickr: #FF0084;
-$social-color-fourSquare: #F94877;
-$social-color-behance: #131418;
-$social-color-snapChat: #FFFC00;
+$social-colors: (
+    facebook: #3B5999,
+    messenger: #0084FF,
+    twitter: #55ACEE,
+    linkedin: #0077B5,
+    skype: #00AFF0,
+    dropbox: #007EE5,
+    wordpress: #21759B,
+    vimeo: #1AB7EA,
+    slideshare: #0077B5,
+    discord: #7289da,
+    vk: #4C75A3,
+    tumblr: #34465D,
+    yahoo: #410093,
+    google: #DD4B39,
+    pinterest: #BD081C,
+    youtube: #CD201F,
+    stumbleupon: #EB4924,
+    reddit: #FF5700,
+    quora: #B92B27,
+    yelp: #AF0606,
+    weibo: #DF2029,
+    producthunt: #DA552F,
+    hackernews: #FF6600,
+    soundcloud: #FF3300,
+    blogger: #F57D00,
+    whatsapp: #25D366,
+    wechat: #09B83E,
+    line: #00C300,
+    medium: #02B875,
+    vine: #00B489,
+    slack: #3AAF85,
+    instagram: #E4405F,
+    dribbble: #EA4C89,
+    flickr: #FF0084,
+    foursquare: #F94877,
+    behance: #131418,
+    snapchat: #FFFC00
+);

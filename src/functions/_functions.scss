@@ -1,0 +1,63 @@
+// Material Design Color Palette
+@function md-color($md-color, $value: 500) {
+    $lowercase-value: to-lower-case($value);
+    @if map-has-key($md-color, $lowercase-value) {
+        @return map-get($md-color, $lowercase-value);
+    } @else {
+        @error 'Invalid color "#{$value}" in $md-color.';
+        @return null;
+    }
+}
+
+// Social Color Palette
+@function social-color($value) {
+    $lowercase-value: to-lower-case($value);
+    @if map-has-key($social-colors, $lowercase-value) {
+        @return map-get($social-colors, $lowercase-value);
+    } @else {
+        @error 'Invalid color "#{$value}" in $social-colors.';
+        @return null;
+    }
+}
+
+// Flat UI Color Palette
+@function flat-ui-color($value) {
+    $lowercase-value: to-lower-case($value);
+    @if map-has-key($flat-ui-colors, $lowercase-value) {
+        @return map-get($flat-ui-colors, $lowercase-value);
+    } @else {
+        @error 'Invalid color "#{$value}" in $flat-ui-color.';
+        @return null;
+    }
+}
+
+// Metro Color Palette
+@function metro-color($value) {
+    @if map-has-key($metro-colors, $value) {
+        @return map-get($metro-colors, $value);
+    } @else {
+        @error 'Invalid color "#{$value}" in $metro-colors.';
+        @return null;
+    }
+}
+
+// HTML Color Palette
+@function html-color($value) {
+    $lowercase-value: to-lower-case($value);
+    @if map-has-key($html-colors, $lowercase-value) {
+        @return map-get($html-colors, $lowercase-value);
+    } @else {
+        @error 'Invalid color "#{$value}" in $html-colors.';
+        @return null;
+    }
+}
+
+// Fluent Design Color Palette
+@function fluent-design-colors($value) {
+    @if index($fluent-design-colors, $value) {
+        @return $value;
+    } @else {
+        @error 'Invalid color "#{$value}" in $fluent-design-colors.';
+        @return null;
+    }
+}
