@@ -1,2 +1,8 @@
 @import "colors/colors";
 @import "mixins/mixins";
+
+body {
+    .element {
+        font-weight: 400;
+    }
+}
