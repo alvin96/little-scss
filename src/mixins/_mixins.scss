@@ -28,27 +28,25 @@
 }
 
 // screen
-@mixin screen($size) {
-    $desktop: "(min-width: 1024px)";
-    $tablet: "(min-width: 768px) and (max-width: 1023px)";
-    $mobile: "(max-width: 767px)";
-    @if $size == desktop {
-        @media only screen and #{$desktop} {
-            @content;
+$breakpoints: (
+        "phone": 400px,
+        "phone-wide": 480px,
+        "phablet": 560px,
+        "tablet-small": 640px,
+        "tablet": 768px,
+        "tablet-wide": 1024px,
+        "desktop": 1248px,
+        "desktop-wide": 1440px
+);
+
+@mixin media($width, $type: min) {
+    @if map_has_key($breakpoints, $width) {
+        $width: map_get($breakpoints, $width);
+        @if $type == max {
+            $width: $width - 1px;
         }
-    } @else if $size == tablet {
-        @media only screen and #{$tablet} {
-            @content;
-        }
-    } @else if $size == mobile {
-        @media only screen and #{$mobile} {
-            @content;
-        }
-    } @else {
-        @media only screen and #{$size} {
+        @media only screen and (#{$type}-width: $width) {
             @content;
         }
     }
 }
-
-
