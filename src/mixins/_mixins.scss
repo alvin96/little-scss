@@ -1,3 +1,16 @@
+// Debug Outline
+@mixin debug($mode:'', $color:#FF2B2B) {
+    @if ($debug) {
+        @if ($mode == 'all') {
+            * {
+                border: 1px dotted $color !important;
+            }
+        } @else {
+            border: 2px dashed $color !important;
+        }
+    }
+}
+
 // Prefix
 @mixin prefix($property, $value, $prefixes: ()) {
     @each $prefix in $prefixes {
