@@ -1,7 +1,8 @@
 // Debug Outline
-@mixin debug($mode:'', $color:#FF2B2B) {
+@mixin debug($mode:"", $color:#FF2B2B) {
     @if ($debug) {
-        @if ($mode == 'all') {
+        @if ($mode == "all") {
+
             * {
                 border: 1px dotted $color !important;
             }
@@ -29,10 +30,10 @@
 // Background Gradient
 @mixin background-gradient($start-color, $end-color, $orientation) {
     background: $start-color;
-    @if $orientation == 'vertical' {
+    @if $orientation == "vertical" {
         background: -webkit-linear-gradient(top, $start-color, $end-color);
         background: linear-gradient(to bottom, $start-color, $end-color);
-    } @else if $orientation == 'horizontal' {
+    } @else if $orientation == "horizontal" {
         background: -webkit-linear-gradient(left, $start-color, $end-color);
         background: linear-gradient(to right, $start-color, $end-color);
     } @else {
@@ -80,9 +81,9 @@ $breakpoints: (
         $min-breakpoint: map-get($breakpoints, $min);
         $max-breakpoint: map-get($breakpoints, $max);
         @if ($min-breakpoint > $max-breakpoint) {
-            @error 'Your min breakpoint is greater than max breakpoint.';
+            @error "Your min breakpoint is greater than max breakpoint.";
         } @else if ($min-breakpoint == $max-breakpoint) {
-            @error 'Your min breakpoint and max breakpoint cannot be same.';
+            @error "Your min breakpoint and max breakpoint cannot be same.";
         } @else {
             @media (min-width: $min-breakpoint) and (max-width: ($max-breakpoint - 1)) {
                 @content;

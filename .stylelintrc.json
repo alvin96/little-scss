@@ -1,0 +1,81 @@
+{
+  "rules": {
+    "color-no-invalid-hex": true,
+    "font-family-no-duplicate-names": true,
+    "unit-no-unknown": true,
+    "property-no-unknown": true,
+    "block-no-empty": true,
+    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-element-no-unknown": true,
+    "selector-type-no-unknown": true,
+    "media-feature-name-no-unknown": true,
+    "no-duplicate-at-import-rules": true,
+    "no-empty-source": true,
+    "no-extra-semicolons": true,
+    "shorthand-property-no-redundant-values": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-single-line-max-declarations": 1,
+    "selector-max-empty-lines": 0,
+    "no-unknown-animations": true,
+    "color-hex-case": "upper",
+    "color-hex-length": "long",
+    "font-family-name-quotes": "always-unless-keyword",
+    "function-comma-space-after": "always-single-line",
+    "function-max-empty-lines": 0,
+    "function-name-case": "lower",
+    "function-url-quotes": "always",
+    "function-whitespace-after": "always",
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "string-quotes": "double",
+    "length-zero-no-unit": true,
+    "unit-case": "lower",
+    "value-keyword-case": "lower",
+    "property-case": "lower",
+    "declaration-bang-space-after": "never",
+    "declaration-bang-space-before": "always",
+    "declaration-colon-newline-after": "always-multi-line",
+    "declaration-colon-space-after": "always-single-line",
+    "declaration-colon-space-before": "never",
+    "declaration-block-semicolon-space-before": "never",
+    "declaration-block-trailing-semicolon": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "block-opening-brace-newline-after": "always-multi-line",
+    "selector-attribute-brackets-space-inside": "never",
+    "selector-attribute-quotes": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
+    "selector-descendant-combinator-no-non-space": true,
+    "selector-pseudo-class-case": "lower",
+    "selector-pseudo-class-parentheses-space-inside": "never",
+    "selector-pseudo-element-case": "lower",
+    "selector-pseudo-element-colon-notation": "double",
+    "selector-type-case": "lower",
+    "selector-list-comma-newline-after": "always-multi-line",
+    "selector-list-comma-space-after": "always-single-line",
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "ignore": [
+          "after-comment"
+        ]
+      }
+    ],
+    "media-feature-colon-space-after": "always",
+    "media-query-list-comma-space-before": "never-single-line",
+    "media-query-list-comma-space-after": "always-single-line",
+    "at-rule-semicolon-newline-after": "always",
+    "at-rule-semicolon-space-before": "never",
+    "comment-whitespace-inside": "always",
+    "indentation": 4,
+    "max-empty-lines": [
+      2,
+      {
+        "ignore": [
+          "comments"
+        ]
+      }
+    ],
+    "no-eol-whitespace": true
+  }
+}
